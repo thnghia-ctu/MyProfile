@@ -14,11 +14,11 @@ body {
     height: 400px;
     background-color: #ffffff;
     display: flex;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    border-radius: 4px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    border-radius: 28px;
     overflow: hidden;
     position: relative;
-    border: 1px solid #e2e2e2;
+    border: 1px solid #e8e3db;
 }
 
 .left-side {
