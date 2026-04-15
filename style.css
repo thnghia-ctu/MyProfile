@@ -161,6 +161,19 @@ body {
 }
 
 @media print {
-    body { background: white; }
-    .card { box-shadow: none; border: 1px solid #ccc; }
+  body * {
+    visibility: hidden;
+  }
+
+  .card, .card * {
+    visibility: visible;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
