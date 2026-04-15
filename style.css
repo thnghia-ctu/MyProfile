@@ -29,6 +29,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://t4.ftcdn.net/jpg/19/10/04/31/360_F_1910043142_hTONqvSEWfLSlfPMLatL9gishIHQsMfr.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.8);
+    background-blend-mode: lighten;
 }
 
 .avatar-container {
@@ -60,7 +66,7 @@ body {
 }
 
 .avatar-label {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #2d3436;
     letter-spacing: 0.6px;
@@ -74,7 +80,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #fff;
+    background-image: url("https://cdn.fondecranvip.com/2025/01/ksY4uW1k-fond-decran-Zen-9.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
     border-left: 1px dashed #eee;
 }
 
@@ -98,14 +109,16 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    color: #636e72;
-    font-size: 1.1rem;
+    color: black;
+    font-size: 1.2rem;
+
 }
 
 .info-icon {
     width: 20px;
     margin-right: 15px;
     opacity: 0.5;
+    color: black;
 }
 
 /* Họa tiết Zen */
@@ -133,10 +146,12 @@ body {
 
 .quote {
     font-style: italic;
-    font-size: 0.9rem;
-    color: #b2bec3;
+    font-size: 1.4rem;
+    color: #1e3a5f;
+    text-shadow: 0 2px 6px rgba(255,255,255,0.7);
     margin-top: 30px;
     font-family: 'Playfair Display', serif;
+    font-weight: 600;
 }
 
 @media print {
